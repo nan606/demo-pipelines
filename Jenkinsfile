@@ -1,15 +1,3 @@
-pipeline {
+job('job_dsl_example') {
 
-    agent any
-
-    stages {
-
-        stage('Build') {
-            steps {
-                sh '''
-                    echo HelloWorld
-                '''
-                  }
-        }
-    }
 }
